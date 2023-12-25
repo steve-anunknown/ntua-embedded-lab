@@ -1,0 +1,15 @@
+ Performance counter stats for 'sh -c grep -c 'I\| L' mem_accesses_log.txt > test.txt':
+
+          11201,27 msec task-clock                       #    0,867 CPUs utilized             
+              3753      context-switches                 #  335,051 /sec                      
+                31      cpu-migrations                   #    2,768 /sec                      
+               198      page-faults                      #   17,677 /sec                      
+       46642388339      cycles                           #    4,164 GHz                       
+      119016266455      instructions                     #    2,55  insn per cycle            
+       21368100134      branches                         #    1,908 G/sec                     
+         135508933      branch-misses                    #    0,63% of all branches           
+
+      12,919825305 seconds time elapsed
+
+      10,110339000 seconds user
+       1,121446000 seconds sys

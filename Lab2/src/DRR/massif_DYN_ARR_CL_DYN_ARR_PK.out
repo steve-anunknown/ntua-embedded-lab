@@ -1,0 +1,1444 @@
+desc: --massif-out-file=massif_DYN_ARR_CL_DYN_ARR_PK.out
+cmd: ./drr
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3893141
+mem_heap_B=78592
+mem_heap_extra_B=30576
+mem_stacks_B=0
+heap_tree=detailed
+n6: 78592 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36096 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 36096 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 36096 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 24192 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 24192 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 13024 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 12936 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 12936 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 3528 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 3528 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 1728 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 1696 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 1696 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=8378976
+mem_heap_B=79168
+mem_heap_extra_B=31152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=13886112
+mem_heap_B=76864
+mem_heap_extra_B=28832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=19186112
+mem_heap_B=73684
+mem_heap_extra_B=25636
+mem_stacks_B=0
+heap_tree=detailed
+n6: 73684 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36096 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 36096 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 36096 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 19284 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 19284 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 13024 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 12936 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 12936 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 3528 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 3528 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 1728 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 1696 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 1696 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=25943710
+mem_heap_B=120068
+mem_heap_extra_B=45668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=29990010
+mem_heap_B=118820
+mem_heap_extra_B=44404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=34583534
+mem_heap_B=116948
+mem_heap_extra_B=42516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=37612022
+mem_heap_B=115544
+mem_heap_extra_B=41112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=41934349
+mem_heap_B=112796
+mem_heap_extra_B=38364
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=45749539
+mem_heap_B=109840
+mem_heap_extra_B=35016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=49301532
+mem_heap_B=154580
+mem_heap_extra_B=40284
+mem_stacks_B=0
+heap_tree=detailed
+n6: 154580 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 88064 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 88064 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 88064 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 28512 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 28424 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 28424 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 26580 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 26580 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 7752 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 7752 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 3648 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 3616 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 3616 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=53708531
+mem_heap_B=180764
+mem_heap_extra_B=51092
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=56230189
+mem_heap_B=178820
+mem_heap_extra_B=49148
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=60965276
+mem_heap_B=196140
+mem_heap_extra_B=50964
+mem_stacks_B=0
+heap_tree=detailed
+n6: 196140 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 114752 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 114752 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 114752 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 34956 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 34956 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 33088 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 33000 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 33000 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 9000 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 9000 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 4320 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 4288 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 4288 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=66979193
+mem_heap_B=220936
+mem_heap_extra_B=53744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=71009436
+mem_heap_B=252372
+mem_heap_extra_B=64764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=76193973
+mem_heap_B=299392
+mem_heap_extra_B=83432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=80815848
+mem_heap_B=297652
+mem_heap_extra_B=81676
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=86385384
+mem_heap_B=294964
+mem_heap_extra_B=78972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=91007275
+mem_heap_B=291196
+mem_heap_extra_B=75204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=96238003
+mem_heap_B=317276
+mem_heap_extra_B=83316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=100842658
+mem_heap_B=312920
+mem_heap_extra_B=78928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=104239573
+mem_heap_B=334372
+mem_heap_extra_B=83108
+mem_stacks_B=0
+heap_tree=detailed
+n6: 334372 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 206144 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 206144 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 206144 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 59508 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 59508 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 48840 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 48752 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 48752 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 13296 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 13296 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 6560 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 6528 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 6528 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=110006863
+mem_heap_B=369008
+mem_heap_extra_B=88600
+mem_stacks_B=0
+heap_tree=detailed
+n6: 369008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 229376 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 229376 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 229376 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 61392 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 61392 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 55968 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 55880 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 55880 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 15240 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 15240 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 7008 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 6976 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 6976 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=114764437
+mem_heap_B=403452
+mem_heap_extra_B=102948
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=118545412
+mem_heap_B=400152
+mem_heap_extra_B=99632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=123882055
+mem_heap_B=418740
+mem_heap_extra_B=109900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=127668055
+mem_heap_B=414828
+mem_heap_extra_B=105972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=131923441
+mem_heap_B=468400
+mem_heap_extra_B=116224
+mem_stacks_B=0
+heap_tree=detailed
+n6: 468400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 285056 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 285056 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 285056 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 80832 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 80832 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 73128 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 73040 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 73040 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 19920 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 19920 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 9440 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 9408 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 9408 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=137055138
+mem_heap_B=555924
+mem_heap_extra_B=147916
+mem_stacks_B=0
+heap_tree=detailed
+n6: 555924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 334912 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 334912 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 334912 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 109524 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 109524 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 79552 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 79464 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 79464 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 21672 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 21672 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10240 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=141853526
+mem_heap_B=581276
+mem_heap_extra_B=169196
+mem_stacks_B=0
+heap_tree=detailed
+n6: 581276 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 339008 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 339008 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 339008 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n1: 130668 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 130668 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 79640 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 79552 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 79552 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 21696 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 21696 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10240 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=145927415
+mem_heap_B=594084
+mem_heap_extra_B=177780
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=151591616
+mem_heap_B=638276
+mem_heap_extra_B=189244
+mem_stacks_B=0
+heap_tree=detailed
+n6: 638276 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 375936 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 375872 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 375872 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 150660 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 150660 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 79728 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 79640 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 79640 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 21720 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 21720 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10208 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=154691401
+mem_heap_B=638352
+mem_heap_extra_B=197520
+mem_stacks_B=0
+heap_tree=detailed
+n6: 638352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 367744 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 367680 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 367680 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 158928 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 158928 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 79728 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 79640 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 79640 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 21720 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 21720 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10208 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=160397689
+mem_heap_B=637728
+mem_heap_extra_B=196896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=166012337
+mem_heap_B=637104
+mem_heap_extra_B=196272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=169779017
+mem_heap_B=636672
+mem_heap_extra_B=195840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=175343477
+mem_heap_B=636012
+mem_heap_extra_B=195180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=180962401
+mem_heap_B=635316
+mem_heap_extra_B=194468
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=186596117
+mem_heap_B=634584
+mem_heap_extra_B=193736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=192203923
+mem_heap_B=633840
+mem_heap_extra_B=192992
+mem_stacks_B=0
+heap_tree=detailed
+n6: 633840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 367744 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 367680 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 367680 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 154416 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 154416 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 79728 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 79640 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 79640 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 21720 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 21720 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10208 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=197743828
+mem_heap_B=633048
+mem_heap_extra_B=192200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=203316844
+mem_heap_B=632184
+mem_heap_extra_B=191336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=207026023
+mem_heap_B=631572
+mem_heap_extra_B=190724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=212584113
+mem_heap_B=630672
+mem_heap_extra_B=189824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=218098593
+mem_heap_B=629592
+mem_heap_extra_B=188744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=223664431
+mem_heap_B=628428
+mem_heap_extra_B=187580
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=227345529
+mem_heap_B=627516
+mem_heap_extra_B=186668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=231036953
+mem_heap_B=626628
+mem_heap_extra_B=185764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=233587193
+mem_heap_B=625860
+mem_heap_extra_B=184996
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=236109188
+mem_heap_B=625020
+mem_heap_extra_B=184156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=238649468
+mem_heap_B=624060
+mem_heap_extra_B=183180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=241171830
+mem_heap_B=623168
+mem_heap_extra_B=182152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=243706860
+mem_heap_B=621692
+mem_heap_extra_B=180676
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=246230703
+mem_heap_B=619292
+mem_heap_extra_B=178276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=248753046
+mem_heap_B=616832
+mem_heap_extra_B=173392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=251284832
+mem_heap_B=645848
+mem_heap_extra_B=185416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=252443150
+mem_heap_B=669564
+mem_heap_extra_B=192756
+mem_stacks_B=0
+heap_tree=detailed
+n6: 669564 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 400704 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 400640 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 400640 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 152700 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 152700 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 82896 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 82808 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 82808 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 22584 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 22584 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10656 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10656 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10656 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=254974537
+mem_heap_B=671120
+mem_heap_extra_B=198416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=257525235
+mem_heap_B=670208
+mem_heap_extra_B=197504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=260052972
+mem_heap_B=669344
+mem_heap_extra_B=196624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=262597640
+mem_heap_B=668168
+mem_heap_extra_B=195432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=265138040
+mem_heap_B=666776
+mem_heap_extra_B=194040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=267664940
+mem_heap_B=664976
+mem_heap_extra_B=192240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=270190771
+mem_heap_B=661784
+mem_heap_extra_B=189048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=272713701
+mem_heap_B=674180
+mem_heap_extra_B=190844
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=273254466
+mem_heap_B=680580
+mem_heap_extra_B=192364
+mem_stacks_B=0
+heap_tree=detailed
+n6: 680580 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 410496 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 410432 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 410432 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 151236 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 151236 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 84832 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 84744 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 84744 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23112 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23112 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10880 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10880 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10880 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=274546316
+mem_heap_B=687156
+mem_heap_extra_B=194564
+mem_stacks_B=0
+heap_tree=detailed
+n6: 687156 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 413888 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 413824 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 413824 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 152820 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 152820 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 86064 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 85976 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 85976 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23448 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23448 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 10912 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 10912 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 10912 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=274668551
+mem_heap_B=694204
+mem_heap_extra_B=196492
+mem_stacks_B=0
+heap_tree=detailed
+n6: 694204 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 417984 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 417920 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 417920 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 154188 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 154188 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 87208 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 87120 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 87120 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23760 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23760 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11040 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11040 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11040 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=274797773
+mem_heap_B=708028
+mem_heap_extra_B=201116
+mem_stacks_B=0
+heap_tree=detailed
+n6: 708028 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 427200 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 427136 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 427136 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 158796 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 158796 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 87208 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 87120 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 87120 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23760 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23760 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11040 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11040 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11040 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=275208584
+mem_heap_B=714424
+mem_heap_extra_B=205424
+mem_stacks_B=0
+heap_tree=detailed
+n6: 714424 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 429248 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 429184 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 429184 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163032 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163032 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 87296 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 87208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 87208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23784 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23784 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11040 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11040 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11040 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=275294699
+mem_heap_B=723640
+mem_heap_extra_B=208512
+mem_stacks_B=0
+heap_tree=detailed
+n6: 723640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 435392 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 435328 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 435328 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 166104 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 166104 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 87296 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 87208 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 87208 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 23784 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 23784 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11040 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11040 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11040 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=277837654
+mem_heap_B=724584
+mem_heap_extra_B=213496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=280361398
+mem_heap_B=723432
+mem_heap_extra_B=212344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=282894349
+mem_heap_B=722352
+mem_heap_extra_B=211264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=285430617
+mem_heap_B=720732
+mem_heap_extra_B=209628
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=287953569
+mem_heap_B=718152
+mem_heap_extra_B=206976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=290475240
+mem_heap_B=733596
+mem_heap_extra_B=207516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=290648526
+mem_heap_B=734368
+mem_heap_extra_B=207256
+mem_stacks_B=0
+heap_tree=detailed
+n6: 734368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 441728 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 441664 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 441664 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 161952 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 161952 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 93456 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 93368 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 93368 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 25464 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 25464 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11744 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11744 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11744 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=80
+#-----------
+time=291004033
+mem_heap_B=743764
+mem_heap_extra_B=209500
+mem_stacks_B=0
+heap_tree=detailed
+n6: 743764 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 448000 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 447936 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 447936 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163668 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163668 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 94512 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 94424 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 94424 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 25752 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 25752 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 11808 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 11808 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 11808 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=291726422
+mem_heap_B=751244
+mem_heap_extra_B=211708
+mem_stacks_B=0
+heap_tree=detailed
+n6: 751244 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 451392 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 451328 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 451328 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 164844 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 164844 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 96624 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 96536 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 96536 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 26328 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 26328 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 12032 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 12032 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 12032 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=292588542
+mem_heap_B=760604
+mem_heap_extra_B=212108
+mem_stacks_B=0
+heap_tree=detailed
+n6: 760604 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 457664 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 457600 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 457600 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163692 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163692 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 99704 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 99616 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 99616 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 27168 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 27168 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 12352 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 12352 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 12352 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=83
+#-----------
+time=292969295
+mem_heap_B=769220
+mem_heap_extra_B=213836
+mem_stacks_B=0
+heap_tree=detailed
+n6: 769220 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 462144 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 462080 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 462080 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 164196 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 164196 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 102256 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 102168 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 102168 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 27864 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 27864 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 12736 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 12736 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 12736 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=84
+#-----------
+time=293414135
+mem_heap_B=777928
+mem_heap_extra_B=215088
+mem_stacks_B=0
+heap_tree=detailed
+n6: 777928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 465472 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 465408 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 465408 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163560 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163560 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 106480 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 106392 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 106392 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 29016 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 29016 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 13376 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 13376 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 13376 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=293665781
+mem_heap_B=786448
+mem_heap_extra_B=216768
+mem_stacks_B=0
+heap_tree=detailed
+n6: 786448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 468800 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 468736 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 468736 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163680 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163680 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 109912 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 109824 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 109824 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 29952 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 29952 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 14080 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 14080 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 14080 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=86
+#-----------
+time=293995832
+mem_heap_B=795040
+mem_heap_extra_B=218288
+mem_stacks_B=0
+heap_tree=detailed
+n6: 795040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 473152 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 473088 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 473088 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163824 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163824 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 112904 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 112816 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 112816 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 30768 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 30768 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 14368 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 14368 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 14368 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=87
+#-----------
+time=294209520
+mem_heap_B=803360
+mem_heap_extra_B=220176
+mem_stacks_B=0
+heap_tree=detailed
+n6: 803360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 475904 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 475840 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 475840 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 164064 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 164064 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 116512 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 116424 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 116424 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 31752 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 31752 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 15104 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 15104 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 15104 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=88
+#-----------
+time=294467384
+mem_heap_B=812100
+mem_heap_extra_B=221780
+mem_stacks_B=0
+heap_tree=detailed
+n6: 812100 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 479040 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 478976 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 478976 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 163812 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 163812 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 120560 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 120472 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 120472 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 32856 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 32856 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 15808 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 15808 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 15808 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=89
+#-----------
+time=295133008
+mem_heap_B=822872
+mem_heap_extra_B=224360
+mem_stacks_B=0
+heap_tree=detailed
+n6: 822872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 485760 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 485696 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 485696 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 165576 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 165576 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 122232 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 122144 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 122144 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 33312 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 33312 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 15968 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 15968 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 15968 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=90
+#-----------
+time=295408385
+mem_heap_B=831052
+mem_heap_extra_B=228436
+mem_stacks_B=0
+heap_tree=detailed
+n6: 831052 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 489856 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 489792 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 489792 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 169548 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 169548 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 122320 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 122232 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 122232 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 33336 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 33336 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 15968 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 15968 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 15968 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=91
+#-----------
+time=297930588
+mem_heap_B=832088
+mem_heap_extra_B=228408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=298503135
+mem_heap_B=841112
+mem_heap_extra_B=228976
+mem_stacks_B=0
+heap_tree=detailed
+n6: 841112 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 495168 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 495104 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 495104 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 168264 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 168264 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 126456 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 126368 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 126368 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 34464 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 34464 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 16736 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 16736 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 16736 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=93
+#-----------
+time=298868826
+mem_heap_B=850272
+mem_heap_extra_B=230568
+mem_stacks_B=0
+heap_tree=detailed
+n6: 850272 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 499136 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 499072 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 499072 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 168192 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 168192 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 130064 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 129976 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 129976 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 35448 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 35448 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 17408 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 17408 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 17408 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=94
+#-----------
+time=299131949
+mem_heap_B=859420
+mem_heap_extra_B=232444
+mem_stacks_B=0
+heap_tree=detailed
+n6: 859420 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 503936 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 503872 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 503872 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 168780 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 168780 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 132792 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 132704 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 132704 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 36192 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 36192 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 17696 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 17696 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 17696 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=95
+#-----------
+time=299885075
+mem_heap_B=869064
+mem_heap_extra_B=233856
+mem_stacks_B=0
+heap_tree=detailed
+n6: 869064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 508736 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 508672 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 508672 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 168504 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 168504 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 136488 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 136400 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 136400 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 37200 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 37200 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 18112 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 18112 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 18112 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=96
+#-----------
+time=300172176
+mem_heap_B=879324
+mem_heap_extra_B=236388
+mem_stacks_B=0
+heap_tree=detailed
+n6: 879324 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 514624 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 514560 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 514560 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 170076 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 170076 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 138512 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 138424 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 138424 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 37752 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 37752 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 18336 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 18336 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 18336 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=97
+#-----------
+time=300464887
+mem_heap_B=887520
+mem_heap_extra_B=239408
+mem_stacks_B=0
+heap_tree=peak
+n6: 887520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 519744 0x401873: cdsl_dyn_array_enqueue (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 519680 0x401521: insert_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 519680 0x40123B: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 173040 0x401350: get_next_packet (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 173040 0x40120D: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 138600 0x401707: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 138512 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 138512 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 37776 0x401433: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 37776 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+ n2: 18336 0x401736: cdsl_dyn_array_init (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n1: 18336 0x40146C: find_node (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+   n0: 18336 0x401224: main (in /home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab2/src/DRR/drr)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
