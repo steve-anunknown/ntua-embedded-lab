@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:SDSProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="knn-classifier-final" location="/home/stefanos/Documents/programming-projects/uni/ntua-embedded-lab/Lab3/knn-classifier-final" platform="zybo" sysConfig="linux" runtime="C/C++" cpu="a9_0" os="linux" ConfigType="Debug">
+  <configuration name="Debug" id="com.xilinx.sdsoc.managedbuild.project.debug.1749102873">
+    <configBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="1" enableHwSwTrace="false" traceApplication="false" genEmulationModel="false">
+      <accelerator name="calcDistancesHW" filepath="src/calcDist.cpp" clkid="1"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="1" enableHwSwTrace="false" traceApplication="false" genEmulationModel="false">
+      <accelerator name="calcDistancesHW" filepath="src/calcDist.cpp" clkid="1"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdsoc.managedbuild.project.release.1563362316">
+    <configBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="1" enableHwSwTrace="false" traceApplication="false"/>
+  </configuration>
+</sdsproject:SDSProject>
